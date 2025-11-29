@@ -1,25 +1,25 @@
 class Mach < Formula
   desc "A CLI tool for managing todos with a weekly calendar"
   homepage "https://machich.co"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rvcas/mach/releases/download/v0.2.1/machich-aarch64-apple-darwin.tar.xz"
-      sha256 "9b1d991324ab5d6cc320619949492e6f84ce2b2c01edf06ca6bdabd93bd117f7"
+      url "https://github.com/rvcas/mach/releases/download/v0.2.2/machich-aarch64-apple-darwin.tar.xz"
+      sha256 "f952615ea669ea01b4cb059eebd4e9bbc0cdeb90c87f8fd9972156ece3df91e6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rvcas/mach/releases/download/v0.2.1/machich-x86_64-apple-darwin.tar.xz"
-      sha256 "94afde93df99d20bc668169bcea74a06080f7384466c216597e0a6232424ce54"
+      url "https://github.com/rvcas/mach/releases/download/v0.2.2/machich-x86_64-apple-darwin.tar.xz"
+      sha256 "ee02b8cc9e385bc6988edd15ca5c5c56a3c0b87f5246c9f9e8729574bd8f74dc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rvcas/mach/releases/download/v0.2.1/machich-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0e5881e67e929f60eb1027ab918bee85e4b3c10002fc4621659f353014a741df"
+      url "https://github.com/rvcas/mach/releases/download/v0.2.2/machich-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8837dd98dad8c5e83ae3cf722af6d9f63490b5bb0bafcbbccb0bed5d17e2392a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rvcas/mach/releases/download/v0.2.1/machich-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8eab2da44892ac8077b90e23af7c90f98167dd76c9dacf7afb33f64dd6a70960"
+      url "https://github.com/rvcas/mach/releases/download/v0.2.2/machich-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e1590800be0def482f24c7ee8e36d513def12b3a97565bef4139a85b12b04f1e"
     end
   end
   license "MIT"
